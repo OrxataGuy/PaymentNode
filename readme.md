@@ -20,3 +20,9 @@ You've just to run:
 node ./payment.js
 ```
 The app will run on `http://localhost:3000`.
+
+## Coming soon
+Code integration with:
+- Redsys
+- Stripe
+- Bizum

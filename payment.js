@@ -16,24 +16,24 @@ const fs = require('fs'),
    
     const products = [{
         'id': 'PRD001',
-        'name': 'Par de calcetines',
+        'name': 'Pair of socks',
         'price': '10.00',
-        'currency': 'EUR',
-        'description': 'Un par de calcetines bien calentitos.'
+        'currency': 'USD',
+        'description': 'A pair of very comfy socks.'
     },
     {
         'id': 'PRD002',
-        'name': '3 Pares de calcetines',
+        'name': '3 Pairs of socks',
         'price': '24.00',
         'currency': 'EUR',
-        'description': '¡El triple de calcetines, el triple de comodidad!'
+        'description': '¡Triple the socks, triple the comfort!'
     },
     {
         'id': 'PRD003',
-        'name': '5 Pares de calcetines',
+        'name': '5 Pairs of socks',
         'price': '35.00',
         'currency': 'EUR',
-        'description': '¡Mayor cantidad, menor precio! Con esta oferta nunca te faltarán calcetines.'
+        'description': '¡The higher quantity, the lower price! With this offer you will never lack socks.'
     }, ],
     app = express();
     var product;
@@ -245,4 +245,4 @@ app.get('/success', (req, res) => {
     })
 })
 
-app.get('/cancel', (req, res) =>   send(res, `cancelled.html`))
+app.get('/cancel', (req, res) =>   send(res, `canceled.html`))
