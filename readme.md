@@ -1,6 +1,6 @@
 # Payment NodeJS
 ## First of all: Get your PayPal code 
-First of all you should create your sandbox shop in PayPal. Just follow [this link](!https://developer.paypal.com), get into your account, and create your sandbox shop. After that, you might see your `client id` and your `client secret`. Keep an eye on these keys, because you'll need them in a few steps.
+First of all you should create your sandbox shop in PayPal. Just follow (this link)[!https://developer.paypal.com], get into your account, and create your sandbox shop. After that, you might see your `client id` and your `client secret`. Keep an eye on these keys, because you'll need them in a few steps.
 
 ## Installing the application
 It's an easy step, you just need to run this:
