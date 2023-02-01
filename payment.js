@@ -25,14 +25,14 @@ const fs = require('fs'),
         'id': 'PRD002',
         'name': '3 Pairs of socks',
         'price': '24.00',
-        'currency': 'EUR',
+        'currency': 'USD',
         'description': '¡Triple the socks, triple the comfort!'
     },
     {
         'id': 'PRD003',
         'name': '5 Pairs of socks',
         'price': '35.00',
-        'currency': 'EUR',
+        'currency': 'USD',
         'description': '¡The higher quantity, the lower price! With this offer you will never lack socks.'
     }, ],
     app = express();
